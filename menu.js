@@ -1,5 +1,5 @@
 (function ($) {
-    
+    // dependency of jquery
     // class togglemenu can be added via js when in mobile mode etc
     wrapper = $('body');
     el = wrapper.find('.togglemenu'); 
