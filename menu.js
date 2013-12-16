@@ -2,7 +2,7 @@
     // dependency of jquery
     // class togglemenu can be added via js when in mobile mode etc
     wrapper = $('body');
-    el = wrapper.find('.togglemenu'); 
+    el = wrapper.find('.togglemenu'); // change this for custom class
     act = el.children().children();
     act.children().not('a').hide();
     act.click(function() {
